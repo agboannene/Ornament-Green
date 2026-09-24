@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  --color-forest: #0F3D2E;
+  --color-forest-dark: #09261C;
+  --color-forest-light: #18523E;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F4D35E;
+  --color-mint: #EBF4F0;
+  --color-charcoal: #12221B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAFCFA;
+  color: #12221B;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+

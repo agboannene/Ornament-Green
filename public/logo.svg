@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <!-- Left circle stroke gradient: forest green to deep teal -->
+    <linearGradient id="og-left-ring" x1="28" y1="96" x2="124" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14532D" />
+      <stop offset="50%" stop-color="#156445" />
+      <stop offset="100%" stop-color="#12685E" />
+    </linearGradient>
+
+    <!-- Right circle stroke gradient: deep teal to vibrant ocean blue -->
+    <linearGradient id="og-right-ring" x1="76" y1="96" x2="172" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#12685E" />
+      <stop offset="60%" stop-color="#0E7E9E" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Central leaf fill: rich circular teal-forest -->
+    <linearGradient id="og-leaf-fill" x1="100" y1="54" x2="100" y2="138" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#156B61" />
+      <stop offset="100%" stop-color="#115850" />
+    </linearGradient>
+  </defs>
+
+  <!-- Central filled leaf (intersection of two circles of radius 48 at x=76 and x=124) -->
+  <path
+    d="M 100 54.43 A 48 48 0 0 1 100 137.57 A 48 48 0 0 1 100 54.43 Z"
+    fill="url(#og-leaf-fill)"
+  />
+
+  <!-- Stem extending downwards from bottom vertex -->
+  <line
+    x1="100"
+    y1="136"
+    x2="100"
+    y2="151"
+    stroke="#115850"
+    stroke-width="3.6"
+    stroke-linecap="square"
+  />
+
+  <!-- Left Ring -->
+  <circle
+    cx="76"
+    cy="96"
+    r="48"
+    stroke="url(#og-left-ring)"
+    stroke-width="3.2"
+    fill="none"
+  />
+
+  <!-- Right Ring -->
+  <circle
+    cx="124"
+    cy="96"
+    r="48"
+    stroke="url(#og-right-ring)"
+    stroke-width="3.2"
+    fill="none"
+  />
+</svg>
